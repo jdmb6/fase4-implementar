@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario - Media Queries</title>
+</head>
+<body>
+    <h1 id="resultado">Responda </h1>
+    <div>
+        <form name="formulario">
+            <h3>1. ¿Cuál es la forma correcta de aplicar una Media Query en CSS para dispositivos con un ancho de pantalla mayor o igual a 768 píxeles?</h3>
+
+            <input type="radio" name="r1" value="a"> a. @media (min-width: 768px) <br>
+            <input type="radio" name="r1" value="b"> a. @media (max-width: 768px) <br>
+            <input type="radio" name="r1" value="c"> a. @media (width: 768px) <br>
+
+            <h3>2. ¿Qué propiedad de CSS se utiliza dentro de una Media Query para aplicar estilos específicos a dispositivos con una relación de aspecto determinada?</h3>
+
+            <input type="radio" name="r2" value="a"> a. aspect-ratio <br>
+            <input type="radio" name="r2" value="b"> a. device-width <br>
+            <input type="radio" name="r2" value="c"> a. orientation <br>
+
+            <h3>3. ¿Cuál es la sintaxis correcta para combinar varias Media Queries en una regla CSS?</h3>
+
+            <input type="radio" name="r3" value="a"> a. @media (condition1) and (condition2) { ... } <br>
+            <input type="radio" name="r3" value="b"> a. @media (condition1, condition2) { ... } <br>
+            <input type="radio" name="r3" value="c"> a. @media (condition1) or (condition2) { ... } <br>
+
+            <h3>4. ¿Cuál es la Media Query que se puede utilizar para aplicar estilos a dispositivos de alta resolución (como pantallas Retina)?</h3>
+
+            <input type="radio" name="r4" value="a"> a. @media (min-resolution: 2dppx) <br>
+            <input type="radio" name="r4" value="b"> a. @media (max-resolution: 2dppx) <br>
+            <input type="radio" name="r4" value="c"> a. @media (resolution: 2dppx) <br>
+
+            <h3>5. ¿Cuál es la Media Query que se utiliza para aplicar estilos específicos a dispositivos que están en modo apaisado (landscape)?</h3>
+
+            <input type="radio" name="r5" value="a"> a. @media (orientation: portrait) <br>
+            <input type="radio" name="r5" value="b"> a. @media (orientation: landscape) <br>
+            <input type="radio" name="r5" value="c"> a. @media (orientation: auto) <br>
+
+
+            <input type="button" value="Enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
